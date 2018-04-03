@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.elina.netty_lab4.MainActivity">
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="text .." />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message" />
+
+    <TextView
+        android:id="@+id/textViewCnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
